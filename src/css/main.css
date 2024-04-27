@@ -1,0 +1,305 @@
+/* Import Montserrat font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/* Apply Montserrat font to all text elements */
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+button,
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    /* Ensure italic style is not applied */
+}
+
+
+/* scroll bar */
+::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.1rem;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 0.5rem;
+}
+
+/* Define the font size and line height  */
+
+.font-xxs {
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.font-xs {
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.font-sm {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.font-md {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.font-base {
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.font-lg {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.font-xl {
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.font-2xl {
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.font-3xl {
+    font-size: 48px;
+    line-height: 46px;
+}
+
+/* End of defining the font size and line height  */
+
+/* Base styles */
+.nav-btn {
+    padding: 8px 16px;
+    border-radius: 24px;
+    color: #096F0F;
+}
+
+.nav-btn:hover {
+    color: #000;
+    transition: all 500ms ease-in-out;
+    background-color: #F5F5F5;
+}
+
+/* End of define Nav button custom style */
+
+/* Buttons */
+
+/* Search button */
+.btn-width {
+    height: 44px;
+    width: 44px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+/* common button */
+.btn {
+    padding: 10px 16px;
+    border-radius: 8px;
+    background-color: black;
+    color: #fff;
+}
+
+/* End Buttons */
+
+/* Define text color */
+.text-green {
+    color: #096F0F;
+}
+
+.text-blue {
+    color: #0764E3;
+}
+
+/* End Define text color */
+
+/* Define background color */
+
+.bg-gray {
+    background-color: #D9D9D9
+}
+
+.bg-blue {
+    background-color: #001844;
+}
+
+.bg-blue-light {
+    background-color: #E8F0FC;
+}
+
+.bg-green {
+    background-color: #096F0F;
+}
+
+.bg-hero-gradient {
+    background-image: linear-gradient(180deg, #424242 0%, #000000 98.3%);
+}
+
+.bg-time-to-gradient {
+    background-image: linear-gradient(90deg, rgba(245, 248, 252, 0.85) 0%, rgba(255, 255, 255, 0.85) 43.1%)
+}
+
+.bg-gray-light {
+    background-color: #F5F5F5;
+}
+
+
+/* End define background color */
+
+
+/* Custom z-index classes */
+.z-index-1 {
+    z-index: 1;
+}
+
+.z-index-5 {
+    z-index: 5;
+}
+
+.z-index-10 {
+    z-index: 10;
+}
+
+/* End Custom z-index classes */
+
+/* Custom Width */
+
+.w-10 {
+    width: 10%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+/* End Custom Width */
+
+
+
+
+
+/* ** Home page ** */
+
+/* Add background image in the hero section */
+
+.hero-section {
+    position: relative;
+    height: 100dvh;
+    background-image: url('../../src/assets/image/banner.svg');
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-repeat: no-repeat;
+
+}
+
+/* End of  background image in the hero section */
+
+.padding {
+    padding: 64px 48px;
+}
+
+/* Active bar */
+
+.bar {
+    width: 100%;
+    height: 4px;
+    background-color: #001844;
+    margin-top: 15px;
+    display: none;
+}
+
+/* navbar color */
+.navbar-bg {
+    background-color: #fff;
+    transition: all 500ms ease-in-out;
+
+}
+
+
+/* ** Other page ** */
+
+.pages-section {
+    position: relative;
+    height: 50dvh;
+    background-image: url('../assets/image/bg_2.png');
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-repeat: no-repeat;
+}
+
+
+
+@media (max-width: 576px) {
+
+    .logo {
+        width: 60%;
+
+    }
+    
+}
+
+
+@media (max-width: 998px) {
+
+    
+    #navbarNav{
+        background-color: #fff;
+        border-radius: 10px;
+    }
+}
